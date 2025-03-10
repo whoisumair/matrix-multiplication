@@ -11,6 +11,9 @@ void initialize_matrix(double A[MAX_SIZE][MAX_SIZE], int N) {
             A[i][j] = (i + j) * 0.01;
 }
 
+
+
+
 // **Parallel Matrix Multiplication (Optimized for OpenMP)**
 void matrix_multiply_parallel(double A[MAX_SIZE][MAX_SIZE], double B[MAX_SIZE][MAX_SIZE], double C[MAX_SIZE][MAX_SIZE], int N) {
     double start = omp_get_wtime();
