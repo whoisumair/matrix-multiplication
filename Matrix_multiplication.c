@@ -17,6 +17,8 @@ void matrix_multiply(double A[M][N], double B[N][P], double C[M][P]) {
 }
 
 
+
+
 int main() {
     double A[M][N], B[N][P], C[M][P];
 
