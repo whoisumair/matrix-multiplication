@@ -4,6 +4,8 @@
 
 #define MAX_SIZE 2000  // Max matrix size
 
+
+
 // Function to initialize matrix
 void initialize_matrix(double A[MAX_SIZE][MAX_SIZE], int N) {
     for (int i = 0; i < N; i++)
