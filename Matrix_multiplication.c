@@ -5,6 +5,7 @@
 #define N 1000
 #define P 1000
 
+
 void matrix_multiply(double A[M][N], double B[N][P], double C[M][P]) {
     for (int i = 0; i < M; i++) {
         for (int j = 0; j < P; j++) {
