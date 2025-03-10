@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <omp.h>
 
+
+
 #define MAX_SIZE 2000  // Max matrix size
 
 // Function to initialize matrix
